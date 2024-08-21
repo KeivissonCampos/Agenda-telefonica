@@ -31,6 +31,8 @@ formCadastro.addEventListener("submit", (e)=>{
 
     const listContato = document.querySelector('ul');
     listContato.innerHTML = listas;
+    nomeContato.value = '';
+    telContato.value ='';
     
 });
 
